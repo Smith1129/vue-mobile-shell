@@ -1,0 +1,55 @@
+.palyInfo {
+    display: flex;
+    width: 100%;
+    padding: 12.5px;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 10px;
+
+    .infoDetails {
+        flex: 1;
+
+        p {
+            font-size: 15px;
+            margin-bottom: 11px;
+            color: #29273a;
+
+            em {
+                font-size: 15px;
+                color: #5E8DB7;
+            }
+
+            i {
+                display: inline-block;
+                width: 13.5px;
+                height: 15.5px;
+                margin-left: 2.5px;
+                background: url('../../../assets/image/bean.png') 0/100% no-repeat;
+
+            }
+        }
+
+        /* span {
+            display: inline-block;
+            font-size: 15px;
+            background: rgb(233, 233, 233);
+            line-height: 30px;
+            padding: 0 5px;
+        } */
+    }
+
+    .infoBtn {
+        color: #fff;
+        background: rgb(44, 44, 44);
+        border-radius: 10px;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        width: 80px;
+        text-align: center;
+        font-size: 14px;
+    }
+}

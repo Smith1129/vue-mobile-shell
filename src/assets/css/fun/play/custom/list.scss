@@ -1,0 +1,33 @@
+.customLIst {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        height: 100px;
+        background: #E9E9E9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 5px;
+
+        .label {
+            font-size: 16px;
+            color: #2C2C2C;
+        }
+
+        .expend {
+            font-size: 14px;
+            color: #2C2C2C;
+
+            em {
+                color: #6F6F6F;
+            }
+        }
+    }
+
+    .van-cell {
+        background: #f0f3f6;
+        margin-bottom: 5px;
+    }
+}

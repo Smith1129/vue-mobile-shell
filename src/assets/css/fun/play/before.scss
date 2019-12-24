@@ -1,0 +1,88 @@
+.playBefore {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+
+    .van-cell__value--alone {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .list {
+        display: flex;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            display: inline-block;
+        }
+
+        .periods {
+            background: #FE9D3F;
+            color: #fff;
+            border-radius: 11px;
+            font-size: 12px;
+            line-height: 22px;
+            height: 22px;
+            padding: 0 7.5px;
+        }
+
+        .luck {
+            color: #fff;
+            border-radius: 50%;
+            font-size: 12px;
+            width: 23.5px;
+            height: 23.5px;
+            text-align: center;
+            line-height: 23.5px;
+            background: #2C9CFE;
+
+            &.bj {
+                background: #ff5959;
+            }
+
+            &.luck16 {
+                background: #31c37c;
+            }
+        }
+
+        .luckPeople {
+            font-size: 12px;
+            color: #29273A;
+
+            em {
+                color: #FF5959;
+                text-decoration: underline;
+            }
+        }
+
+        .value {
+            color: #29273A;
+            min-width: 80px;
+            text-align: right;
+
+            em {
+                font-size: 12px;
+
+                &.lose {
+                    color: rgb(128, 171, 95);
+                }
+
+                &.winner {
+                    color: rgb(227, 99, 99);
+                }
+            }
+
+            i {
+                margin-left: 2.5px;
+                display: inline-block;
+                width: 13.5px;
+                height: 10.5px;
+                background: url('../../../assets/image/bean.png') 0/100% no-repeat;
+            }
+        }
+    }
+
+}

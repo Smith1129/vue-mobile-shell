@@ -1,0 +1,171 @@
+.title {
+    padding: 10px 15px;
+    background: #F5F8F9;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+    .chart {
+        width: 100%;
+        height: 140px;
+        background: #fff;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        padding: 5px;
+        box-sizing: border-box;
+
+        #myChart {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .status {
+        width: 100%;
+        flex-flow: row nowrap;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+
+        p {
+            border: 1px solid #ccc;
+            background: #fff;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+            height: 43px;
+            padding: 5px 10px;
+            width: 50%;
+
+            &:last-child {
+                margin-bottom: 0px;
+                border-left: none;
+            }
+
+            span {
+                display: block;
+                height: 12px;
+                line-height: 12px;
+
+                i {
+                    display: inline-block;
+                    width: 14px;
+                    height: 11px;
+                    background: url('../../../../assets/image/bean.png') 0/100% no-repeat;
+                }
+
+                &:first-child {
+                    color: #29273A;
+                    font-size: 12px;
+                    text-align: left;
+                    margin-bottom: 5px;
+                }
+
+                &:last-child {
+                    font-size: 13px;
+                    text-align: right;
+
+                    &.win {
+                        color: #FF5959;
+                    }
+
+                    &.lose {
+                        color: #5CC800;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.periods {
+    padding: 0 15px;
+
+    table {
+        width: 100%;
+        table-layout: fixed;
+        word-break: break-all;
+        border-collapse: collapse;
+        margin-top: 12px;
+
+        thead {
+            tr {
+                td {
+                    background: #F5F8F9;
+                    text-align: center;
+                    border: 1px solid #D5DDE6;
+                    font-size: 12px;
+                    color: #29273A;
+                    line-height: 30px;
+                }
+            }
+        }
+
+        tbody {
+
+            tr {
+                td {
+                    position: relative;
+                    border: 1px solid #D5DDE6;
+                    background: #fff;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 30px;
+
+                    &.td_time {
+                        color: #ACACAC;
+                    }
+
+                    &.td_periods {
+                        color: #FF6600;
+                    }
+
+                    &.td_noNum {
+                        img {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+
+                    &.get {
+                        i {
+                            display: inline-block;
+                            width: 14px;
+                            height: 11px;
+                            background: url('../../../../assets/image/bean.png') 0/100% no-repeat;
+                        }
+                    }
+
+                    &.td_num {
+                        color: #28263A;
+
+                        i {
+                            width: 19px;
+                            height: 19px;
+                            border-radius: 50%;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 19px;
+                            display: inline-block;
+                        }
+                    }
+
+                    &.win {
+                        color: #FF5959;
+                    }
+
+                    &.lose {
+                        color: #63C90C;
+                    }
+
+                    &.td_btn {
+                        color: #2C9CFE;
+                        text-decoration: underline;
+                    }
+                    &.td_btnNo{
+                        color: #abaaaa;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.joinTab {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 20px 0 10px 20px;
+    box-sizing: border-box;
+    height: 143px;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #fff;
+    margin-bottom: 6px;
+
+    .tab {
+        display: flex;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        flex: 1;
+
+        &.list {
+
+            p {
+                width: 17%;
+                margin-right: 7.5px;
+                /* &:nth-child(-n+6) {
+                    width: 33%;
+                } */
+
+                &:nth-child(-n+12) {
+                    margin-bottom: 8px;
+                }
+
+            }
+        }
+
+        &.modelz {
+            justify-content: flex-start;
+
+            p {
+                padding: 0 10px;
+                margin-right: 2%;
+                margin-bottom: 10px;
+            }
+        }
+
+        &.highs {
+
+            p {
+                width: 17%;
+                margin-bottom: 8px;
+                margin-right: 7.5px;
+            }
+        }
+
+        p {
+            height: 22px;
+            border: 1px solid #CBCBCE;
+            font-size: 13px;
+            text-align: center;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-radius: 2px;
+            color: #29273A;
+
+
+            &.btn {
+                border-color: #CBCBCE;
+                background: #EBF0F5;
+            }
+
+            &.high {
+                width: 33%;
+                border-color: #CBCBCE;
+                background: #EBF0F5;
+            }
+        }
+    }
+
+    .model {
+        width: 33px;
+        height: 88.5px;
+        text-align: center;
+        background: url('../../../../assets/image/ju.png') 0/100% no-repeat;
+
+        span {
+            color: #fff;
+            font-size: 12px;
+            display: block;
+            height: 100%;
+            padding: 5px 0;
+            box-sizing: border-box;
+
+            &.modules1 {
+                line-height: 15px;
+            }
+
+            &.modules2 {
+                line-height: 18px;
+            }
+        }
+    }
+}

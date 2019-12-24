@@ -1,0 +1,29 @@
+.playIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f5f6f8;
+    width: 100%;
+    height: 100%;
+
+    .autoTips {
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}

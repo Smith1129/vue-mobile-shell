@@ -1,0 +1,45 @@
+.playType {
+    display: flex;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+    a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #29273a;
+
+        span {
+            display: inline-block;
+            height: 34px;
+            width: 34px;
+            border-radius: 7.5px;
+            margin-bottom: 11px;
+
+            &.tab0 {
+                background: url('../../../assets/image/funtab1.png') 0/100% no-repeat;
+            }
+
+            &.tab1 {
+                background: url('../../../assets/image/funtab2.png') 0/100% no-repeat;
+            }
+
+            &.tab2 {
+                background: url('../../../assets/image/funtab3.png') 0/100% no-repeat;
+            }
+
+            &.tab3 {
+                background: url('../../../assets/image/funtab4.png') 0/100% no-repeat;
+            }
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+}

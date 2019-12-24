@@ -1,0 +1,86 @@
+.winList {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .title {
+        color: #28263A;
+        font-size: 18px;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .list {
+        padding: 0 15px;
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+            word-break: break-all;
+            border-collapse: collapse;
+
+            thead {
+                tr {
+                    td {
+                        background: #F5F8F9;
+                        text-align: center;
+                        border: 1px solid #D5DDE6;
+                        font-size: 12px;
+                        color: #29273A;
+                        line-height: 27px;
+                    }
+                }
+
+            }
+
+            tbody {
+                tr {
+                    td {
+                        position: relative;
+                        border: 1px solid #D5DDE6;
+                        background: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 27px;
+
+                        i {
+                            display: inline-block;
+                            width: 14px;
+                            height: 11px;
+                            background: url('../../../assets/image/bean.png') 0/100% no-repeat;
+                        }
+
+                        &.nickName {
+                            color: #ACACAC;
+                            text-align: left;
+                            img{
+                                display: inline-block;
+                                width: 17.5px;
+                                height: 17.5px;
+                                border-radius: 50%;
+                                margin-left: 8px;
+                                vertical-align: middle;
+                                margin-bottom: 3px;
+                            }
+                        }
+
+                        &.playIn {
+                            color: #5E8DB7;
+                        }
+
+                        &.winIn {
+                            color: #FF5959;
+                        }
+
+                        &.loseIn {
+                            color: #5CC800;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+
+    }
+}

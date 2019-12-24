@@ -1,0 +1,169 @@
+.joinInfo {
+    display: flex;
+    flex-direction: column;
+
+    // 开奖信息
+    .info {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 8.5px 20px 10.5px;
+        justify-content: space-between;
+        align-items: center;
+        background: #F5F8F9;
+        border-bottom: 1px solid #D5DDE6;
+
+        .infoLeft {
+            span {
+                display: block;
+
+                &.periods {
+                    p {
+                        width: 86px;
+                        height: 22px;
+                        font-size: 13px;
+                        text-align: center;
+                        line-height: 22px;
+                        color: #fff;
+                        display: inline-block;
+                        background: #FD8A20;
+                        border-radius: 20px;
+                        margin-right: 11px;
+                    }
+
+                    i {
+                        color: #29273A;
+                        font-size: 13px;
+
+                        em {
+                            color: #2C9CFE;
+                        }
+                    }
+                }
+
+                &.prize {
+                    margin-top: 8px;
+                    font-size: 13px;
+                    color: #29273A;
+
+                    em {
+                        color: #5E8DB7;
+                    }
+                }
+            }
+        }
+
+        .infoRight {
+            .result {
+                font-size: 12px;
+                color: #5B5D65;
+                height: 20px;
+                line-height: 26px;
+            }
+
+            .number {
+                font-size: 14px;
+                color: #2C2C2C;
+                margin-top: 8px;
+
+                em {
+                    display: inline-block;
+                    width: 19px;
+                    height: 19px;
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 19px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    // 我的参与
+    .join {
+        display: flex;
+        flex-flow: column wrap;
+        background: #F5F8F9;
+
+        // 参与详情
+        .joinInfo {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding: 15px 10px 15px 15px;
+            align-items: center;
+            border-bottom: 1px solid #D5DDE6;
+
+            .joinLeft {
+                .joinTime {
+                    font-size: 14px;
+                    color: #29273A;
+
+                    em {
+                        color: #5E8DB7;
+                    }
+                }
+
+                .beanNum {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    color: #29273A;
+
+                    em {
+                        color: #5E8DB7;
+                    }
+                }
+            }
+
+            .joinRight {
+                p {
+                    width: 52.5px;
+                    height: 26px;
+                    color: #29273A;
+                    background: #FFFFFF;
+                    display: inline-block;
+                    border-radius: 2px;
+                    border: 1px solid #8993A8;
+                    text-align: center;
+                    line-height: 26px;
+                    margin-left: 10px;
+                    font-size: 10px;
+                }
+            }
+        }
+
+        // 参与倍数
+        .multiply {
+            display: flex;
+            flex-flow: wrap nowrap;
+            justify-content: space-between;
+
+            padding: 10px;
+
+            p {
+                display: inline-block;
+                width: 34px;
+                height: 18px;
+                border-radius: 2px;
+                border: 1px solid #8993A8;
+                text-align: center;
+                line-height: 18px;
+                font-size: 11px;
+                color: #29273A;
+
+                &.active {
+                    background: #2C9CFE;
+                    color: #fff;
+                    border-color: #2C9CFE;
+                }
+
+                &.end {
+                    background: #8993A8;
+                    color: #fff;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+
+}

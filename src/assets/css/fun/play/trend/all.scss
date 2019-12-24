@@ -1,0 +1,200 @@
+.trendAll {
+    width: 380%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    .trend_table {
+        width: 100%;
+        table-layout: fixed;
+        word-break: break-all;
+        border-collapse: collapse;
+
+        th {
+            width: 70px;
+            color: #576077;
+            font-weight: 400;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
+
+        td {
+            position: relative;
+            border: 1px solid #ddd;
+            color: #660000;
+            background: #fff;
+            
+            &.times {
+                line-height: 30px;
+                text-align: center;
+            }
+
+            &.search {
+                text-align: right;
+                line-height: 30px;
+
+                span {
+                    display: inline-block;
+
+                    input {
+                        width: 80px;
+                        height: 20px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-bottom: 3px;
+                        padding-left: 5px;
+                        box-sizing: border-box;
+                    }
+                }
+
+                .van-button {
+                    margin-left: 5px;
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .active1 {
+            background: #2c9cfe;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            display: block;
+            line-height: 19px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .active2 {
+            background: #ff6b6e;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            display: block;
+            line-height: 19px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .active3 {
+            background: #31c37c;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            display: block;
+            line-height: 19px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        p {
+            height: 100%;
+            line-height: 30px;
+            display: inline-block;
+            width: 100%;
+            &.luck{
+                width: 20px;
+                height: 20px;
+                color: #fff;
+                border-radius: 50%;
+                line-height: 20px;
+                font-size: 12px;
+            }
+        }
+
+
+        .rather1 {
+            background-color: rgba(44, 156, 254, 0.7);
+        }
+
+        .rather2 {
+            background-color: rgba(255, 107, 110, 0.7);
+        }
+
+        .rather3 {
+            background-color: rgba(49, 195, 124, 0.7);
+        }
+
+        .bg1 {
+            background-color: #fff5ee;
+        }
+
+        .bg2 {
+            background-color: #f4fbff;
+        }
+
+        .bg3 {
+            background-color: #f0fff0;
+        }
+
+        .font1 {
+            background: #3333ff;
+            color: #fff;
+        }
+
+        .font2 {
+            background: #ff0000;
+            color: #fff;
+        }
+
+        .font3 {
+            background: #3333ff;
+            color: #fff;
+        }
+
+        .dan {
+            background: #ea2640;
+            color: #fff;
+        }
+
+        .shuang {
+            background: #663399;
+            color: #fff;
+        }
+
+        .zhong {
+            background: #ff0000;
+            color: #fff;
+        }
+
+        .bian {
+            background: #3333ff;
+            color: #fff;
+        }
+
+        .da {
+            background: #ff8040;
+            color: #fff;
+        }
+
+        .xiao {
+            background: #ea2640;
+            color: #fff;
+        }
+
+        .xiaowei {
+            background: #ea2640;
+            color: #fff;
+        }
+
+        .dawei {
+            background: #639;
+            color: #fff;
+        }
+    }
+
+    .trendAlls {
+        position: fixed;
+        right: 1%;
+        top: 50%;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        background: rgba(57, 169, 237, 0.8);
+        font-size: 12px;
+    }
+}

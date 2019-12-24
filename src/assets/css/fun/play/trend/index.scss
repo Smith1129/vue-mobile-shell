@@ -1,0 +1,143 @@
+.trendIndex {
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 40px;
+    background: #fff;
+    width: 100%;
+    .myTab{
+        height: 50px;
+    }
+    .trendAll {
+        position: fixed;
+        right: 1%;
+        top: 50%;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        background: rgba(57, 169, 237, 0.8);
+        font-size: 12px;
+    }
+
+    
+    .trendDetail {
+        padding: 0 16px;
+        margin-top: 20px;
+
+        .title {
+            .van-col {
+                height: 36px;
+                text-align: center;
+                line-height: 36px;
+                color: #fff;
+
+                &.label {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .list {
+
+            .van-col {
+                height: 100%;
+                text-align: center;
+                line-height: 36px;
+                background-color: #fff;
+                font-size: 14px;
+
+                .luck {
+                    background-color: #66c6f2;
+                    width: 25px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    border-radius: 50%;
+                    color: #fff;
+                    display: inline-block;
+                }
+
+                p {
+                    color: #fff;
+
+                    &.dan {
+                        background-color: #ea2640;
+                    }
+
+                    &.shuang {
+                        background-color: #639;
+                    }
+
+                    &.zhong {
+                        background-color: red;
+                    }
+
+                    &.bian {
+                        background-color: #33f;
+                    }
+
+                    &.da {
+                        background-color: #ff8040;
+                    }
+
+                    &.xiao {
+                        background-color: #ea2640;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .trendInterval {
+        padding: 0 18px;
+        margin-top: 20px;
+
+        .title {
+            .van-col {
+                height: 36px;
+                text-align: center;
+                line-height: 36px;
+                color: #fff;
+
+                &.label {
+                    font-weight: bold;
+                    background-color: #66c6f2;
+                }
+
+                &.num {
+                    background-color: #39a9ed;
+                }
+
+                &.num2 {
+                    background-color: #66c6f2;
+                }
+            }
+        }
+
+        .list {
+
+            .van-col {
+                height: 100%;
+                text-align: center;
+                line-height: 36px;
+                background-color: #fff;
+                font-size: 14px;
+
+                .luck {
+                    background-color: #66c6f2;
+                    width: 25px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    border-radius: 50%;
+                    color: #fff;
+                    display: inline-block;
+                }
+
+            }
+        }
+    }
+}

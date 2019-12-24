@@ -1,0 +1,158 @@
+.aboutDetail {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .win {
+        color: #FF5959;
+    }
+
+    .lose {
+        color: #63C90C;
+    }
+
+    .title {
+        padding: 12px 15px;
+        background: #F5F8F9;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        span {
+            display: inline-block;
+            width: 49%;
+            height: 30px;
+            background: #fff;
+            border: 1px solid #8993A8;
+            border-radius: 4px;
+            margin-bottom: 7.5px;
+            line-height: 28px;
+            padding: 0 10px;
+            box-sizing: border-box;
+
+            em {
+                font-size: 12px;
+
+                &.label {
+                    color: #29273A;
+                    margin-right: 11px;
+                }
+
+                &.award {
+                    color: #5E8DB7;
+                }
+
+                &.num {
+                    color: #28263A;
+
+                    i {
+                        display: inline-block;
+                        color: #fff;
+                        border-radius: 50%;
+                        text-align: center;
+                        width: 19px;
+                        height: 19px;
+                        line-height: 19px;
+                    }
+                }
+
+                &.get {
+                    color: #FF5959;
+                }
+            }
+        }
+    }
+
+    .list {
+        padding: 0 15px;
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+            word-break: break-all;
+            border-collapse: collapse;
+            margin-top: 12px;
+
+
+
+            thead {
+                tr {
+                    td {
+                        background: #F5F8F9;
+                        text-align: center;
+                        border: 1px solid #D5DDE6;
+                        font-size: 12px;
+                        color: #29273A;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            tbody {
+
+                tr {
+                    td {
+                        position: relative;
+                        border: 1px solid #D5DDE6;
+                        background: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height:30px;
+
+                        &.td_time {
+                            color: #ACACAC;
+                        }
+
+                        &.td_periods {
+                            color: #FF6600;
+                        }
+
+                        &.td_noNum {
+                            img {
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                        }
+
+                        &.get {
+                            i {
+                                display: inline-block;
+                                width: 14px;
+                                height: 11px;
+                                background: url('../../../../assets/image/bean.png') 0/100% no-repeat;
+                            }
+                        }
+
+                        &.td_num {
+                            color: #28263A;
+
+                            i {
+                                width: 19px;
+                                height: 19px;
+                                border-radius: 50%;
+                                color: #fff;
+                                text-align: center;
+                                line-height: 19px;
+                                display: inline-block;
+                            }
+                        }
+
+
+
+                        &.td_btn {
+                            color: #2C9CFE;
+                            text-decoration: underline;
+                        }
+
+                        &.td_btnNo {
+                            color: #abaaaa;
+                        }
+
+                        &.nomal {
+                            color: #5E8DB7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

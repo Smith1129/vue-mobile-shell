@@ -1,0 +1,122 @@
+.customEdit {
+    display: flex;
+    flex-direction: column;
+    background: #F5F8F9;
+
+    .customTab {
+        background: #fff;
+
+        .tabTitle {
+            padding: 0 20px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+            border-bottom: 1px solid #D8D8D8;
+
+            label {
+                font-size: 16px;
+            }
+
+            input {
+                font-size: 14px;
+                border: none;
+                text-align: right;
+            }
+        }
+
+        .tabList {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 20px;
+
+            div {
+                display: flex;
+
+                &.times {
+                    justify-content: space-between;
+
+                    span {
+                        font-size: 11px;
+                        color: #29273A;
+                        border: 1px solid #CBCBCE;
+                        width: 11%;
+                        height: 22px;
+                        text-align: center;
+                        line-height: 22px;
+                        border-radius: 4px;
+                    }
+                }
+
+                &.standard {
+                    justify-content: space-between;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    max-height: 150px;
+                    overflow: hidden;
+                    overflow-x: hidden;
+                    overflow-y: auto;
+
+                    span {
+                        font-size: 13px;
+                        color: #29273A;
+                        border: 1px solid #CBCBCE;
+                        text-align: center;
+                        border-radius: 2px;
+                        height: 22px;
+                        box-sizing: border-box;
+                        width: 18%;
+                        margin-top: 8px;
+                        line-height: 22px;
+
+                        &.active {
+                            color: #fff;
+                        }
+                    }
+
+                    i {
+                        width: 18.5%;
+                        font-size: 14px;
+                        color: #3955A8;
+                        text-decoration: underline;
+                        line-height: 40px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .join {
+        margin-top: 10px;
+        background: #fff;
+        padding-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: #8993a8;
+        line-height: 60px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+
+        .van-button {
+            font-size: 16px;
+            float: right;
+        }
+
+        .van-button--normal {
+            width: 140px;
+            height: 60px;
+            font-size: 16px;
+        }
+    }
+}
