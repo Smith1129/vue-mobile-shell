@@ -44,5 +44,11 @@ module.exports = {
     },
     devServer: {
         open: true
-    }
+    },
+    productionSourceMap:false,
+    outputDir: 'dist',
+    assetsDir: 'static',
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '//static-material.ttz.com/dist/h5/'
+    : '/'
 }
